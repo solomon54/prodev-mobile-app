@@ -1,4 +1,4 @@
-import PropertyListing from "@/components/PropretyListing";
+import PropertyListing from "@/components/PropertyListing";
 import { styles } from "@/styles/_mainstyle";
 import { Feather } from "@expo/vector-icons";
 import {
@@ -10,7 +10,7 @@ import {
   Dimensions,
   TouchableHighlight,
 } from "react-native";
-import { FILTERS, SAMPLE_DATA } from "@/constants";
+import { FILTERS, SAMPLE_DATA } from "@/constants/data";
 const Home = () => {
   return (
     <View style={styles.container}>
