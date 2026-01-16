@@ -9,7 +9,7 @@ import {
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { styles } from "@/styles/_join"; // Ensure this path is correct
-import { HEROLOGOGREEN, GOOGLELOGO, FACEBOOKLOGO } from "@/constants";
+import { HEROLOGOGREEN, GOOGLELOGO, FACEBOOKLOGO } from "@/constants/data";
 import { useRouter } from "expo-router";
 
 export default function Join() {
