@@ -10,7 +10,7 @@ import {
   Dimensions,
   TouchableHighlight,
 } from "react-native";
-import { FILTERS, SAMPLE_DATA } from "@/constants";
+import { FILTERS, SAMPLE_DATA } from "@/constants/data";
 const Home = () => {
   return (
     <View style={styles.container}>
